@@ -3,6 +3,7 @@ import random
 
 client = discord.Client()
 dictaterPath = 'data/dictater.png'
+token = 
 
 @client.event
 async def on_ready():
@@ -38,38 +39,4 @@ async def on_message(message):
 
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-client.run('NjE5MzUxOTgwNjg2NDQyNTE3.Xr8kuA.ynhktOkYGsnl_Z1WLbkenyx_ZE0')
+client.run(token)
